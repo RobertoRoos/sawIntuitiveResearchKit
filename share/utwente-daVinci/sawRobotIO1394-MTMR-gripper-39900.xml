@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Config Version="4">
-   <Robot Name="MTMR-Gripper" NumOfActuator="1" NumOfJoint="1" SN="32336" Type="io-only">
+   <Robot Name="MTMR-Gripper" NumOfActuator="1" NumOfJoint="1" SN="39900" Type="io-only">
       <Actuator ActuatorID="0" AxisID="3" BoardID="3" Type="Revolute">
          <Drive>
             <AmpsToBits Offset="32768" Scale="-5242.88"/>
@@ -13,7 +13,7 @@
          </Encoder>
          <AnalogIn>
             <BitsToVolts Offset="0" Scale="6.86646e-05"/>
-            <VoltsToPosSI Offset="91.423800" Scale="-23.178800" Unit="deg"/>
+            <VoltsToPosSI Offset="80.855750" Scale="-24.484777" Unit="deg"/>
          </AnalogIn>
       </Actuator>
    </Robot>
